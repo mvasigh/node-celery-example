@@ -1,0 +1,16 @@
+{
+  "name": "conductor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mehdi Vasigh <mehdi.vasigh@arundo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "node-celery": "^0.2.8"
+  }
+}
